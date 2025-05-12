@@ -36,7 +36,6 @@ public class ConversorApp {
                 System.out.println("Valor no válido. Intente de nuevo.");
                 continue;
             }
-
             try {
                 double result = service.convertCurrency(from, to, amount);
                 System.out.printf("Resultado: %.2f %s = %.2f %s%n", amount, from, result, to);
